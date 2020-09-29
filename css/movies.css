@@ -1,0 +1,412 @@
+*{
+    box-sizing:border-box;
+    }
+    body{
+    margin:0px;
+    padding:0px;
+    }
+    #bms{
+    background-color:#000066;
+    color:white;
+    margin:0%;
+    height:100px;;
+    }
+    #bmsimg{
+    float:left;
+    font-size:25px;
+    font-family: 'Lilita One', cursive;
+    margin-left:8%;
+    }
+    #home{
+    color:white;
+    }
+    #my{
+    font-style:italic;
+    padding-left:3px;
+    padding-right:3px;
+    border-radius:8px;
+    background-color:#cc2900;
+    }
+    #srch{
+    margin-top:30px;
+    margin-bottom:2%;
+    border-radius:20px;
+    height:30px;
+    width:400px;
+    margin-left:3%;
+    outline:none;
+    padding:1%;
+    text-align:center;
+    color:595959;
+    font-weight:bold;
+    border:1px solid transparent;
+    }
+    #signinbtn{
+    margin-left:3%;
+    height:35px;
+    width:90px;
+    border-radius:15px;
+    outline:none;
+    border:none;
+    background-color:white;
+    font-weight:bold;
+    color:#000066;
+    }
+    a{
+    text-decoration:none;
+    }
+    a:hover{
+    color:white;
+    }
+    #location{
+    margin-left:23%;
+    font-size:17px;
+    color: #d9d9d9;
+    border:none;
+    background-color:#000066;
+    outline:none;
+    border-radius:15px;
+    }
+    #location:hover{
+    color:white;
+    }
+    #signinbtn:hover{
+    border:2px solid white;
+    background-color:#000066;
+    color:white;
+    transition: 0.3s;
+    }
+    #navbar{
+    background-color:#00134d;
+    margin-top:-1.1%;
+    text-align:center;
+    padding:0.7%;
+    }
+    .navelement{
+    margin-left:3%;
+    font-size:17px;
+    color:#d9d9d9;
+    padding:0.5%;
+    }
+    .navelement:hover{
+    border-radius:12px;
+    color:white;
+    }
+    .banner img
+        {
+            height:110%;
+            width:15%;
+            margin-left:10px;
+            margin-top:70px;
+            border-bottom: 5px solid green;
+        }
+		.slider {
+        width: 1000px;
+        height: 200px;
+        display: flex;
+         
+      }
+    .slider-image {
+        width: 140px;
+		padding-right:3%;
+      }
+	  .slider-padding
+	  {
+		  padding-right:120px;
+	  }
+	  .slider1 {
+        width: 1000px;
+        height: 20px;
+        display: flex;
+      }
+			.banner
+			{
+                background-image : url(images/blur.jpg);
+                background-repeat:no-repeat;
+                background-size: cover; 
+                height:260px;
+                width:100%;
+            }
+            .temp
+            {
+                font-size: 10px;
+                margin-block-start: -270px;
+                padding-left: 250px;
+            }
+            .banner img
+            {
+                height:110%;
+                width:15%;
+                margin-left:10px;
+                margin-top:70px;
+                border-bottom: 5px solid green;
+            }
+            #info
+			{
+			height:auto;
+			width:70%;
+			padding:40px 30px;
+			margin-left:250px;
+			}
+			.slider
+			{ 
+    			height: 100px;
+			}            
+			#rev 
+			{
+			width:100%;
+    		padding:20px 20px;
+			display:none;
+			background-color:white;
+			font-family: 'Lora', serif;
+			}
+			#sum{
+			display:block;
+			width:100%;
+			padding:10px 20px;
+			background-color:white;
+			font-family: 'Lora', serif;
+			}
+			.rev{
+			margin-top:-10%;
+			margin-left:10%;
+			}
+			.revhr{
+			color:#bfbfbf;
+			margin-top:30px;
+			margin-bottom:30px;
+			}
+			.bt{
+			margin-left:80%;
+			margin-top:-30%;
+			display:in-line;
+			padding:15px 20px;
+			color:white;
+			font-size:20px;
+			background-color:#4d4dff;
+			outline:none;
+			border:none;
+			border-radius:5px;
+			transition:0.5s;
+			}
+			.srbtn{
+			background-color:white;
+			float:left;
+			color:black;
+			border:none;
+ 			text-align: center;
+  			padding: 14px 16px;
+			outline:none;
+			}
+			#s{
+				margin-left:280px;
+				
+			}
+			#r{
+				background-color:#f2f2f2;
+			}
+	.bt:hover{
+	 color:#262626;
+	box-shadow:0 0 50px #000066;
+	background-color:transparent;
+	}
+    .footer
+    {
+    background-color:#00134d;
+    text-align:center;
+    }
+    
+    .footertext{
+    color:white;
+    margin-right:6%;
+    }
+    .footertext:hover{
+    color:4da6ff;
+    }
+    .footericons{
+    margin-right:2.5%;
+    border-radius:50%;
+    border:1px solid #999999;
+    color:999999;
+    padding:7px;
+    }
+  
+    @media screen and (max-width: 1366px)
+    {
+        #location{
+        margin-left:10%;
+        font-size:17px;
+        color: #d9d9d9;
+        border:none;
+        background-color:#000066;
+        outline:none;
+        border-radius:15px;
+        }
+        #navbar{
+        background-color:yello;
+        margin-top:-1.1%;
+        height:50px;
+        padding:50%;
+        display:none;
+        }
+        .navelement
+        {
+            margin-left:3%;
+            font-size:17px;
+            color:#d9d9d9;
+            padding:0.5%;
+        }
+        .navelement:hover
+        {
+            border-radius:12px;
+            color:white;
+        }
+        .banner img
+        {
+            height:110%;
+            width:15%;
+            margin-left:10px;
+            margin-top:70px;
+            border-bottom: 5px solid green;
+        }
+		.slider {
+        width: 1000px;
+        height: 200px;
+        display: flex;
+         
+      }
+      .slider-image {
+        width: 140px;
+		padding-right:3%;
+      }
+	  .slider-padding
+	  {
+		  padding-right:120px;
+	  }
+	  .slider1 {
+        width: 1000px;
+        height: 20px;
+        display: flex;
+      }
+      .banner
+      {
+                background-image : url(images/blur.jpg);
+                background-repeat:no-repeat;
+                background-size: cover; 
+                height:260px;
+                width:100%;
+            }
+            .temp
+            {
+                font-size: 10px;
+                margin-block-start: -270px;
+                padding-left: 250px;
+            }
+            .banner img
+            {
+                height:110%;
+                width:15%;
+                margin-left:10px;
+                margin-top:70px;
+                border-bottom: 5px solid green;
+            }
+            #info
+			{
+			height:100%;
+			width:70%;
+			padding:40px 30px;
+			margin-left:250px;
+			}
+			.slider
+			{ 
+    			height: 100px;
+			}            
+			#rev 
+			{
+			width:100%;
+    		padding:20px 20px;
+			display:none;
+			background-color:white;
+			font-family: 'Lora', serif;
+			}
+			#sum{
+			display:block;
+			width:100%;
+			padding:10px 20px;
+			background-color:white;
+			font-family: 'Lora', serif;
+			}
+			.srbtn{
+			background-color:white;
+			float:left;
+			color:black;
+			border:none;
+ 			text-align: center;
+  			padding: 14px 16px;
+			outline:none;
+			}
+			#s{
+				margin-left:280px;
+				
+			}
+			#r{
+				background-color:#f2f2f2;
+			}
+			
+            .rev{
+			margin-top:-10%;
+			margin-left:10%;
+			}
+			.revhr{
+			color:#bfbfbf;
+			margin-top:30px;
+			margin-bottom:30px;
+			}
+			
+		    .footer
+    		{
+    			background-color:#00134d;
+    			text-align:center;
+				bottom:0;
+				height:130px;
+			}
+			.footertext
+			{
+    			color:white;
+				
+    			margin-right:6%;
+    		}
+			.footertext:hover
+			{
+				color:4da6ff;
+			}
+			.footericons
+			{
+				margin-right:2.5%;
+    			border-radius:50%;
+    			border:1px solid #999999;
+    			color:#999999;
+    			padding:7px;
+    		}
+			
+	.bt{
+	margin-left:80%;
+	margin-top:-30%;
+	display:in-line;
+	padding:15px 25px;
+	color:white;
+	font-size:20px;
+	background-color:#4d4dff;
+	outline:none;
+	border:none;
+	border-radius:5px;
+	transition:0.5s;
+	}
+	.bt:hover{
+	 
+	color:#262626;
+	box-shadow:0 0 50px #000066;
+	background-color:transparent;
+	}
+		
+    }
